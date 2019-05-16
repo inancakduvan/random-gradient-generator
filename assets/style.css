@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #eee;
+}
+
+.box {
+    width: 30%;
+    height: 3em;
+    background: linear-gradient(to right, rgb(249, 154, 67), rgb(194, 47, 86));
+    border-radius: 30px;
+}
+
+button {
+    width: 30%;
+    margin: 20px 0;
+    padding: 10px;
+    font-size: 1.3em;
+    border-radius: 8px;
+    outline: none;
+}
+
+#code {
+    padding: 20px;
+    background: #f58b54;
+    color: #fff;
+    width: 30%;
+    text-align: center;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+/* MOBILE CSS */
+
+@media screen and (max-width:767px) and (min-width:100px) {
+    .box {
+        width: 80%;
+    }
+    
+    button {
+        width: 80%;
+    }
+    
+    #code {
+        width: 80%;
+    }
+}
+                        
+@media screen and (max-width:991px) and (min-width:768px) { 
+            
+ 
+                        
+}
+                        
+                                        
+@media screen and (max-width:1024px) and (min-width:992px) { 
+
+}
